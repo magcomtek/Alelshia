@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Aleshia Travels</title>
+<style type="text/css">
+
+body {
+  margin: 0;
+  padding: 0;
+  background:#EAE8FF
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color:green;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+}
+.nav li {
+  float::left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .6s background-color;
+}
+ 
+.nav a:hover {
+  background-color: black;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 150px;
+    border-bottom: none;
+    height: auto;
+    line-height: auto;
+    font-size: 1.4em;
+  }
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 300px) {
+  .navbar a, .navbar-right {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+.header {
+  background-color:#FFFFFF;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding-left: 15px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #D9DAFF;
+}
+
+  
+#navbar a {
+  float:left;
+  display: block;
+  color: #04AA6D;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar-centered a {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+#navbar a:hover {
+  background-color: #D9DAFF;
+  color: black;
+  text-decoration:underline;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+  .navbar-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding: 20px;
+}
+.img1 {
+  float: right;
+}
+
+
+
+.style1 {font-family: Arial, Helvetica, sans-serif}
+.style5 {color: #FFFFFF}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
+.style10 {
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.style11 {font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; }
+
+
+
+
+.style12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+}
+.style13 {font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: x-large; }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+img1 {
+  width: 75%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  height: 120px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.style21 {color: #000000}
+-->
+</style>
+</head>
+
+<body>
+<div class="header">
+<table width="100%" border="0">
+  <tr>
+    <td width="15%" rowspan="6"><img src="Aleshia logo globe.png" alt="Logo1"  class="responsive" ></td>
+    <td width="60%" rowspan="6"><img src="Aleshia logo text.png" alt="name" width="92%" height="159"  class="responsive"   ></td>
+    <td width="25%" colspan="3"></td>
+  </tr>
+  <tr>
+    <td height="44"><a href="http:\\wa.me\9949075319"><img src="whatsapp.png" alt="whatsapp"  width="72" /></a></td>
+    <td><a href="tel:+918125117121"><img src="phone.png" alt="phone" width="72" /></a></td>
+    <td><a href="mailto:info@aleshiatravels.com"><img src="Untitled-1.png" alt="mail" width="72" height="72" /></a></td>
+  </tr>
+</table>
+</div>
+
+
+
+
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="Alisha Home.html">Home</a></li>
+        <li class="tutorials"><a href="Alisha About Us.html">About Us</a></li>
+        <li class="about"><a href="#">Visa Checklist</a></li>
+        <li class="news"><a href="#">Tracking</a></li>
+        <li class="contact"><a href="#">Contact Us</a></li>
+      </ul>
+</div>
+
+
+
+<br />
+
+
+
+
+<p><img src="OIP (2).jpg" alt="Pineapple" width="100%" class="img1">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet </p>
+
+
+
+
+
+<table width="100%">
+</table>
+
+
+</br>
+
+<div class="row">
+  <div class="column1" style="background-color:#aaa;">
+    <h2 align="center" style="font-size:2vw;"><span class="style21">Get your visa processed</span><img src="OIP.jpg" width="100%" /></h2>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h2 align="center" style="font-size:2vw;"><span class="style21">Submit you documents</span></h2>
+    <p><span  style="font-size:2vw;">We are here to help you 24/7</span></p>
+  </div>
+  <div class="column1" style="background-color:#ccc;">
+    <h2 align="center" style="font-size:2vw;"><span class="style21">Track your application status</span><img src="R.jpg" width="100%" /></h2>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h2 align="center" style="font-size:2vw;"><span class="style21">Dispatching your passports</span></h2>
+    <p><span  style="font-size:2vw;">Find an agent near you7</span></p>
+  </div>
+</div>
+</br>
+
+
+
+
+<div class="row">
+  <div class="column2" style="background-color:#aaa;">
+    <h2><span style="font-size:2vw;">We believe in complete satisfaction of every traveller that relies on Aleshia Travels. We recognize that good service is more than competitive pricing; it’s a near obsessive attention to detail that transforms a good experience into an exceptional one.</span></h2>
+</div>
+
+
+
+
+
+
+
+
+<table width="1300" height="44" border="1">
+  <tr>
+    <td><div align="center"><span class="style6">Our Affiliations</span></div></td>
+  </tr>
+</table>
+<table width="100%" height="71" border="1">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" height="159" bordercolor="#0000CC" bgcolor="#0000CC">
+  <tr>
+    <td style="font-size:2vw;" width="35%"><p align="center" class="style11">© 2019 Aleshia Travels  | All Rights Reserved </p>
+    <p style="font-size:2vw;" align="center" class="style11">Designed by RICK IT WORLD</p></td>
+    <td  width="65%"><div align="center"><span class="style10" style="font-size:5vw;">ALESHIA TRAVELS</span></div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

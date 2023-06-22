@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Aleshia Travels</title>
+<style type="text/css">
+
+body {
+  margin: 0;
+  padding: 0;
+  background:#EAE8FF
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: blue;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+}
+.nav li {
+  float::left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .6s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 150px;
+    border-bottom: none;
+    height: auto;
+    line-height: auto;
+    font-size: 1.4em;
+  }
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 300px) {
+  .navbar a, .navbar-right {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+.header {
+  background-color:#FFFFFF;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding-left: 15px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #D9DAFF;
+}
+
+  
+#navbar a {
+  float:left;
+  display: block;
+  color: #04AA6D;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar-centered a {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+#navbar a:hover {
+  background-color: #D9DAFF;
+  color: black;
+  text-decoration:underline;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+  .navbar-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding: 20px;
+}
+.img1 {
+  float: right;
+}
+
+
+
+.style1 {font-family: Arial, Helvetica, sans-serif}
+.style5 {color: #FFFFFF}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
+.style10 {
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.style11 {font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; }
+
+
+
+
+.style12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+}
+.style13 {font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: x-large; }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+img1 {
+  width: 75%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  height: 120px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.style21 {color: #000000}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+-->
+</style>
+</head>
+
+<body>
+<div class="header">
+<table width="100%" border="0">
+  <tr>
+    <td width="15%" rowspan="6"><img src="Aleshia logo globe.png" alt="Logo1"  class="responsive" ></td>
+    <td width="60%" rowspan="6"><img src="Aleshia logo text.png" alt="name" width="92%" height="159"  class="responsive"   ></td>
+    <td width="25%" colspan="3"></td>
+  </tr>
+  <tr>
+    <td height="44"><a href="http:\\wa.me\9949075319"><img src="whatsapp.png" alt="whatsapp"  width="72" /></a></td>
+    <td><a href="tel:+918125117121"><img src="phone.png" alt="phone" width="72" /></a></td>
+    <td><a href="mailto:info@aleshiatravels.com"><img src="Untitled-1.png" alt="mail" width="72" height="72" /></a></td>
+  </tr>
+</table>
+</div>
+
+
+
+
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="Alisha Home.html">Home</a></li>
+        <li class="About Us"><a href="Alisha About Us.html">About Us</a></li>
+        <li class="Visa"><a href="Aleshia Travels Checklist.html">Visa Checklist</a></li>
+        <li class="Tracking"><a href="#">Tracking</a></li>
+        <li class="contact">Contact Us</li>
+      </ul>
+    </div>
+
+
+
+<br />
+
+
+   <div class="nav">
+      <ul>
+        <li class="home"><a href="#">Welcome</a></li>
+        <li class="tutorials"><a  href="#">Legalization</a></li>
+        <li class="about"><a href="#">Visa E-Visa</a></li>
+        <li class="news"><a href="#">Call a Cab</a></li>
+      </ul>
+    </div>
+
+
+<p><img src="OIP (2).jpg" alt="Pineapple" width="100%" class="img1">
+Aleshia Travels was founded in 2008 by Mr Mark Anthony with an aim to ease customers from the stress of visa processing.
+
+It’s a one stop agency for visas of all countries providing quality service and constantly aiming at fulfilling our patron's requirements. Since its inception, Aleshia Travels has created a niche for itself in the Travel Industry.
+
+We have excellent working relationship with embassies / consulates and other travel representatives, also have the expertise to walk you through any visa situation.
+
+Our motto is simple “we believe in complete satisfaction of every traveler that calls on Aleshia Travels. We recognize that good service is more than competitive pricing; it’s a near obsessive attention to detail that transforms a good experience into an exceptional one.”
+
+We value your time and understand the frustration of an applicant while applying for a visa. We introduce ourselves as a dumping ground of all your visa concerns. Aleshia Travels is one place where all worries relating to a visa come to an end. We are just a phone call away so, let us assist with all your visa formalities without having to leave the surroundings of your four walls. </p>
+
+<div>
+</br>
+</div>
+
+
+
+<table width="100%">
+</table>
+
+
+
+<div class="columns">
+        <h1>Personalized Service</h1>
+        <p>We understand that every case is different and should be dealt differently. We customize our services and mould ourselves to provide quality services to our customers as per the requirements. We believe customer is the king.</p>
+ 
+</div>
+
+</div>
+
+<div class="columns">
+        <h1>Stress Free Experience</h1>
+        <p>Those who have applied for visa themselves know how agonizing it is to go through the visa procedure. We aim at providing every bit of comfort to our customers and want their journeys to be pleasant from the beginning.</p>
+ 
+</div>
+
+<div class="columns">
+        <h1>Accurate Information</h1>
+        <p>The first step towards delivering the desired result is to provide information timely and accurately. We consistently strive to provide our customers with the most updated and accurate visa information and assistance.</p>
+</div>
+
+<table width="100%">
+</table>
+
+
+
+<div class="columns">
+        <h1>Respecting Timelines</h1>
+        <p>We live in a fast world with our calendars booked for several months ahead. We value our customers and the fact that they rely on us, we organize ourselves and work passionately to stand by our commitments.</p>
+
+
+</div>
+
+<div class="columns">
+        <h1>24/7 Help</h1>
+        <p>Need help any moment of time? Doesn't matter if its a day time or night. We are there for you at every step. Our staff members are ready to help you at any point of time and we try our best to get fast and the best results ALWAYS!</p>
+
+</div>
+
+<div class="columns">
+
+        <h1>Our Mission</h1>
+        <p>Our Mission is to provide easy, fast, affordable and quality services to our Patrons. We recognize that good service is more than competitive pricing; it's a near obsessive attention to detail that transforms a good experience into an exceptional one.</p>
+ 
+</div>
+
+
+<div class="row">
+  <div class="column2" >
+    <h2>We believe in complete satisfaction of every traveller that relies on Aleshia Travels. We recognize that good service is more than competitive pricing; it’s a near obsessive attention to detail that transforms a good experience into an exceptional one.</h2>
+</div>
+
+
+
+
+
+
+
+
+<table width="1300" height="44" border="1">
+
+    <h1 align="center">Our Affiliations</></h1>
+ 
+</table>
+<table width="100%" height="71" border="1">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" height="159" bordercolor="#0000CC" bgcolor="#0000CC">
+  <tr>
+    <td style="font-size:2vw;" width="35%"><p align="center" class="style11">© 2019 Aleshia Travels  | All Rights Reserved </p>
+    <p style="font-size:2vw;" align="center" class="style11">Designed by RICK IT WORLD</p></td>
+    <td  width="65%"><div align="center"><span class="style10" style="font-size:5vw;">ALESHIA TRAVELS</span></div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
